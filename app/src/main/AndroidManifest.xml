@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kstudio.quizapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.SEND" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nikonka"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".resetpass"
+
+            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity android:name=".updateprofilea" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".getreport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".getreport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".resultsadministrator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".resultsadministratordetailed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".createquiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="Result"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".thisd"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".testactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcome" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcome">
+
+        </activity>
+        <activity
+            android:name=".folklor"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".tanzu"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".scazki"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".obuchai"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".tvorchestvo"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".muzuka"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kuhny"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kostum"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".dom"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".pech"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".bani"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".obrazgosvaros"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".stanovleniegos"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".rolcerkvi"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".gorod"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kultrazv"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".fromzemlevlad"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kolonii"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".vosstanovlenieekono"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".otiga"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".moscowcentr"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".donskoy"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kalita"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".vneshaggression"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".polrazdrob"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".mongolzav"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".monomah"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".prichrasp"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".razdrob"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".yaroslav"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".novgorodkiev"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".krechenie"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kulrus"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".mezhnar"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".kategoriinas"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".drevnerusgos"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".obrazgos"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".rasselenie"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".onetus"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".vostslav"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".drevnie"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".rennes"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".reform"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".osman"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".harakchertu"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".stowar"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".zhivopis"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".mini"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".skulptura"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".ikonografia"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".romanstile"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".gotika"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".odezda"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".med"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".sholastika"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".torgovla"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".holyroman"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".czerkov"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".pohodu"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".naukaitech"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".feodalizm"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".rekon"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".frank"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".arab"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".cristh"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".vizantia"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".varvar"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".pereselenie"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".poznya"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".glarus"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".glavniesob"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+        <activity
+            android:name=".europe"
+            android:parentActivityName=".europe"
+            android:theme="@style/Appteor" />
+
+        <activity
+            android:name=".PassTest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".usertest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".customquiz"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/side_nav_bar"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardMaxElevation="5dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:background="@drawable/side_nav_bar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txDate"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="dt"
+                android:textColor="#FFFFFF"
+
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txSub"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ПРЕДМ"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txScr"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ОЧ"
+                android:textColor="#9E5C06"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textColor="#FFFFFF"
+                android:text="ПРАВИЛЬНО" />
+
+            <TextView
+                android:id="@+id/txCrt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="НЕПРАВИЛЬНО"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txWrg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textColor="#FFFFFF"
+                android:text="ПРОПУЩЕНО" />
+
+            <TextView
+                android:id="@+id/txSkp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="ТЕСТЫ">
+        <menu>
+        <item
+            android:id="@+id/nav_home"
+            android:title="ЕВРОПА" />
+        <item
+            android:id="@+id/oge"
+            android:title="ОГЭ" />
+        <item
+            android:id="@+id/ege"
+            android:title="ЕГЭ" />
+        <item
+            android:id="@+id/rusobsh"
+            android:title="РУСЬ" />
+            <item
+                android:id="@+id/sertest"
+
+                android:title="ПОЛЬЗОВАТЕЛЬСКИЕ ТЕСТЫ" />
+
+            <item
+                android:id="@+id/make"
+
+                android:title="СОЗДАТЬ ТЕСТ" />
+        </menu>
+    </item>
+    <item android:title="ТЕОРИЯ">
+        <menu>
+            <item
+                android:id="@+id/eur"
+                android:title="ЕВРОПА" />
+            <item
+                android:id="@+id/rus"
+                android:title="РУСЬ" />
+        </menu>
+    </item>
+    <item android:title="ОСТАЛЬНОЕ">
+        <menu>
+            <item
+                android:id="@+id/thisdayinhistory"
+
+                android:icon="@drawable/thisday"
+                android:title="ЭТОТ ДЕНЬ В ИСТОРИИ" />
+            <item
+                android:id="@+id/usertestsstat"
+
+                android:icon="@drawable/ic_check_box_black_24dp"
+                android:title="РЕЙТИНГ ПОЛЬЗОВАТЕЛЕЙ" />
+            <item
+                android:id="@+id/chat"
+
+                android:icon="@drawable/ic_chat_bubble_black_24dp"
+                android:title="ПОЛЬЗОВАТЕЛЬСКИЙ ЧАТ" />
+            <item
+                android:id="@+id/nav_score"
+
+                android:icon="@drawable/icon_score"
+                android:title="СТАТИСТИКА" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/icon_settings"
+                android:title="НАСТРОЙКИ" />
+            <item
+                android:id="@+id/nav_about"
+
+                android:icon="@drawable/icon_info"
+                android:title="О ПРИЛОЖЕНИИ" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_exit"
+                android:title="ВЫЙТИ ИЗ АККАУНТА" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/icon_exit"
+                android:title="ВЫЙТИ" />
+        </menu>
+    </item>
+
+
+</menu>

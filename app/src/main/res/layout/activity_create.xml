@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/papiro">
+
+
+    <include layout="@layout/content_create" />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end|bottom">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:id="@+id/nextfab"
+            android:visibility="visible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/dfault"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="ВПЕРЕД"
+                android:layout_gravity="center"
+                android:textColor="@android:color/darker_gray"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start|bottom">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:id="@+id/pre_card"
+            android:visibility="invisible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/dfault"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="НАЗАД"
+                android:textColor="@android:color/darker_gray"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start|bottom">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:id="@+id/update_card"
+            android:visibility="invisible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="ВПЕРЕД"
+                android:textColor="@android:color/black"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/fab2"
+            android:visibility="visible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/dfault"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="СОХРАНИТЬ"
+                android:textColor="@android:color/darker_gray" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

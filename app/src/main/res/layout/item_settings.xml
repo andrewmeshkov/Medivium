@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvSopt"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:textSize="18sp">
+
+</TextView>

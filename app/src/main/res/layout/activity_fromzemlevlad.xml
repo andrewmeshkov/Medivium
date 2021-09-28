@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papiro"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="707dp"
+        android:layout_x="5dp"
+        android:layout_y="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_x="21dp"
+                android:layout_y="8dp"
+                app:srcCompat="@drawable/formzvld" />
+
+            <TextView
+                android:id="@+id/formzv"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_x="21dp"
+                android:layout_y="298dp"
+                android:text='Освоение новых земель привело к быстрорастущему — феодализму. Феодальное землевладение стало главным фактором социального развития Северо-Восточной Руси.  Феодальное землевладение делилось на:  княжеское,  боярское,  церковное.  Господствовавшей формой собственности князей, бояр и церкви была вотчина - земли, передаваемые по наследству. Конечно, вотчины были очень крупными земельными владениями. И для того, чтобы лучше управлять ею, хозяин вотчины передавал её часть дворянину (княжеский или боярский придворный слуга). Такая форма землевладения стала называться поместьем. Поместное землевладение предоставлялось князем на указанный срок и на определенных условиях. С землей дворянин получал крестьян, которые пришли на смену низшим слоям населения, по категориям из Русской Правды (закупы, смерды, изгои). Крестьяне были, как свободными, так и зависимыми от феодалов. Поместные земли способствовали быстрому освоению угодий, а также существенно увеличивали экономику того времени. На окраинах государства существовали значительные крестьянские земли - "черные земли". С них крестьяне платили подати в казну.' />
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

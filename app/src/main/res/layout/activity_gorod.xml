@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papiro"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="701dp"
+        android:layout_x="5dp"
+        android:layout_y="24dp">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="386dp"
+                android:layout_height="304dp"
+                android:layout_x="10dp"
+                android:layout_y="6dp"
+                app:srcCompat="@drawable/gord" />
+
+            <TextView
+                android:id="@+id/gor"
+                android:layout_width="352dp"
+                android:layout_height="278dp"
+                android:layout_x="26dp"
+                android:layout_y="320dp"
+                android:text="В связи с разгромом бывших торговых центров Киевской Руси (Владимир, Суздаль, Ростов и др.) стали активно появляться новые и укрепляться старые города: Тверь, Коломна, Кострома, Москва, Нижний Новгород. В них быстро росло население, особенно ремесленники и торговцы. Города по-прежнему были частью феодального устройства и не имели самоуправления. Зависимость от феодалов привела к уничтожению вечевого права. Свободных жителей делили на черных и белых ремесленников. Черные были обременены тяглом (комплекс повинностей натурального или денежного характера, которые они обязаны были отдавать в государство). Белые ремесленники работали непосредственно на бояр, князя или церковь, они такой налог не платили." />
+
+        </AbsoluteLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

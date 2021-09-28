@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papiro"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="724dp"
+        android:layout_x="3dp"
+        android:layout_y="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="395dp"
+                android:layout_height="302dp"
+                android:layout_x="6dp"
+                android:layout_y="11dp"
+                app:srcCompat="@drawable/pereselenie" />
+
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="324dp"
+                android:text="Вели́кое переселе́ние наро́дов — условное название совокупности этнических перемещений в Европе в IV—VII веках[1], главным образом с периферии Римской империи, инициированное вторжением гуннов с востока в середине IV века н. э.  Одним из ключевых событий был климатический пессимум раннего Средневековья, ставший катализатором многих миграций. Империя разделилась на две части, Западную, управлявшуюся из Рима и Восточную с центром в Константинополе. Великое переселение можно рассматривать в качестве составной части глобальных миграционных процессов, охватывающих семь-восемь веков. Характерной особенностью переселения был тот факт, что ядро Западной Римской империи (включая в первую очередь Италию, Галлию, Испанию и отчасти Дакию), куда направилась, в конечном счёте, масса германских переселенцев, к началу V века новой эры уже было достаточно плотно заселено самими римлянами и романизированными кельтскими народами. Поэтому великое переселение народов сопровождалось культурными, языковыми, а впоследствии и религиозными конфликтами между германскими племенами и романизированным оседлым населением.. Великие переселения заложили наследия для образования и развития на европейском континенте новых государств в период Средневековья." />
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout tools:context=".LoginActivity" android:background="@drawable/papiro" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" app:srcCompat="@drawable/log" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/etEmail" android:layout_marginBottom="77dp" android:layout_marginEnd="98dp" android:layout_marginTop="117dp" android:layout_marginStart="93dp" android:id="@+id/imageView"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="@+id/etPwd" app:layout_constraintEnd_toEndOf="@+id/etPwd" android:layout_marginEnd="32dp" android:layout_marginTop="252dp" android:layout_marginStart="32dp" android:id="@+id/etEmail" android:textColorHint="@color/common_google_signin_btn_text_light_pressed" android:textColor="@color/common_google_signin_btn_text_dark_focused" android:inputType="textEmailAddress" android:hint="ПОЧТА" android:ems="10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="@+id/btn" app:layout_constraintEnd_toEndOf="@+id/btn" android:layout_marginEnd="32dp" android:layout_marginTop="39dp" android:layout_marginStart="32dp" android:id="@+id/etPwd" android:textColorHint="@color/common_google_signin_btn_text_light_pressed" android:textColor="@color/common_google_signin_btn_text_dark_focused" android:inputType="textPassword" android:hint="ПАРОЛЬ" android:ems="10" app:layout_constraintTop_toBottomOf="@+id/etEmail"/>
+
+    <Button android:background="@drawable/round_btn_orange" android:layout_height="wrap_content" android:layout_width="111dp" app:layout_constraintStart_toStartOf="@+id/tv" app:layout_constraintEnd_toEndOf="@+id/tv" app:layout_constraintBottom_toTopOf="@+id/tv" android:layout_marginBottom="39dp" android:layout_marginEnd="32dp" android:layout_marginStart="32dp" android:id="@+id/btn" android:textColor="@color/common_google_signin_btn_text_dark_default" android:textStyle="bold" android:textSize="14sp" android:text="ВОЙТИ В АККАУНТ"/>
+
+    <TextView android:layout_height="39dp" android:layout_width="285dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="132dp" android:layout_marginEnd="32dp" android:layout_marginTop="134dp" android:layout_marginStart="32dp" android:id="@+id/tv" android:textColor="@android:color/black" app:layout_constraintTop_toBottomOf="@+id/etPwd" android:textSize="16sp" android:text="НЕ ЗАРЕГЕСТРИРОВАНЫ ? СОЗДАЙТЕ АККАУНТ ЗДЕСЬ" app:layout_constraintVertical_bias="0.546" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="45dp"
+        android:hint="ЗАБЫЛИ ПАРОЛЬ ?"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPwd"
+        app:layout_constraintVertical_bias="0.504" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

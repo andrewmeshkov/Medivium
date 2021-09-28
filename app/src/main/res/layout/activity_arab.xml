@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papiro"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="708dp"
+        android:layout_x="4dp"
+        android:layout_y="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:layout_x="18dp"
+                android:layout_y="16dp"
+                app:srcCompat="@drawable/arabk" />
+
+            <TextView
+                android:id="@+id/sde"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_x="11dp"
+                android:layout_y="210dp"
+                android:text="На протяжении конца VI-начала VII веков на Ближнем Востоке происходили изменения в религии: так, иудаизм активно приобретал новых сторонников (по крайнем мере один арабский политический лидер принял иудаизм), а христианство конкурировало за последователей с персидской религией зороастризмом. Всё это вместо привело к появлению на Аравийском полуострове новой религии, ислама, созданной пророком Мухаммедом (ум. 632), успешно объединившей черты уже существующих религий и зачастую использующий их святые места вроде иудаистского Иерусалима. Праведный халифат последователей Мухаммеда захватил значительную часть как Восточной Римской империи, так и государства Сасанидов: Сирию и Палестину в 634—635 годах, Египет — в 640—641, Персию между 637 и 642, Северную Африку в конце VII века, Испанию в 711—714 годам. Пик исламского контроля над территориями Средиземноморья пришёлся на середину VIII века — так, поражение в Битве при Пуатье в 732 году привело к возврату Южной Франции под контроль Франкского государства. Основной причиной этого было падение Омейядского халифата со столицей в Дамаске, Сирия (бывшая римская территория), и приход на его место Аббасидского халифата с центром в Багдаде, современный Ирак (ранее находился под контролем персов) -политические интересы аббасидов лежали на Ближнем Востоке, а не в Европе. Арабский халифат при аббасидах уже не имел контроля над Испанией, где правили потомки Омейядов, Северной Африкой, доставшейся Аглабидам, и Египтов под властью Тулунидов. К концу VIII века место римским торговым маршрутам[en] в Средиземноморье заняла торговля между франками и арабами: франки продавали древесину, меха, мечи и рабов, арабы — шёлк, специи, драгоценные металлы." />
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>
